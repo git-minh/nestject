@@ -8,90 +8,100 @@ This repository is a **Turborepo** monorepo using **pnpm workspaces**:
 
 - **apps/**
     - **frontend/** (`@nestject/frontend`): Next.js (v16+) application.
-        - Stack: Tailwind CSS v4, Shadcn UI, TanStack Query, Orval, React Hook Form.
-        - Port: `3000`.
+        - **Stack:** React 19, Tailwind CSS v4, Shadcn UI, TanStack Query v5.
+        - **API:** Orval generated hooks (uses `fetch` under the hood).
+        - **Port:** `3000`.
     - **backend/** (`@nestject/backend`): NestJS (v11+) application.
-        - Stack: NestJS Zod, Swagger, Pino Logger.
-        - Port: `3001`.
+        - **Stack:** Fastify (or Express), NestJS Zod, Swagger, Pino Logger.
+        - **Database:** PostgreSQL (Neon) via **Drizzle ORM**.
+        - **Port:** `3001`.
 - **packages/**
-    - **shared/** (`@nestject/shared`): Shared TypeScript types, Zod schemas, and utilities.
+    - **shared/** (`@nestject/shared`): Shared TypeScript types, Zod schemas, and constants.
 
-**Package Manager:** `pnpm` is the required package manager.
+**Package Manager:** `pnpm` is the REQUIRED package manager. Never use `npm` or `yarn`.
 
 ---
 
-## 2. Build, Lint, and Test Commands
+## 2. Key Commands
 
-### Root Commands (Turbo)
-*   **Install Dependencies:** `pnpm install`
-*   **Dev Mode (All Apps):** `pnpm dev` (Runs `turbo dev`)
-*   **Build (All Apps):** `pnpm build` (Runs `turbo build`)
-*   **Lint (All Apps):** `pnpm lint` (Runs `turbo lint`)
-*   **Test (All Apps):** `pnpm test` (Runs `turbo test`)
+### Root Workspace
+*   **Dev (All):** `pnpm dev` (Runs frontend + backend in parallel).
+*   **Build (All):** `pnpm build`.
+*   **Lint (All):** `pnpm lint`.
+*   **Test (All):** `pnpm test`.
 
-### Targeted Commands (`pnpm --filter <pkg> <cmd>`)
-*   **Frontend Dev:** `pnpm --filter @nestject/frontend dev`
-*   **Backend Dev:** `pnpm --filter @nestject/backend start:dev`
-*   **Frontend API Gen:** `pnpm --filter @nestject/frontend generate:api` (Run this after backend changes)
+### Backend (`apps/backend`)
+*   **Start Dev:** `pnpm --filter @nestject/backend start:dev`
+*   **Database Migrations:**
+    *   *Generate:* `pnpm --filter @nestject/backend db:generate` (After changing `schema.ts`)
+    *   *Migrate:* `pnpm --filter @nestject/backend db:migrate` (Apply to DB)
+*   **Testing:**
+    *   *Run All:* `pnpm --filter @nestject/backend test`
+    *   *Single File:* `pnpm --filter @nestject/backend test -- src/modules/users/users.service.spec.ts`
+    *   *Specific Case:* `pnpm --filter @nestject/backend test -- -t "should create a user"`
 
-### Backend Testing (`apps/backend`)
-*   **Run a Single Test File:**
-    ```bash
-    pnpm --filter @nestject/backend test -- src/app.controller.spec.ts
-    ```
-*   **Run a Specific Test Case:**
-    ```bash
-    pnpm --filter @nestject/backend test -- -t "should return"
-    ```
+### Frontend (`apps/frontend`)
+*   **Start Dev:** `pnpm --filter @nestject/frontend dev`
+*   **Generate API Client:** `pnpm --filter @nestject/frontend generate:api`
+    *   *Trigger:* Run this AFTER updating the Backend API/Swagger. Backend must be running.
 
 ---
 
 ## 3. Code Style & Conventions
 
-### Shared Code (`packages/shared`)
-*   **Zod Schemas:** Define Zod schemas here. Export the schema *and* the inferred type.
+### Shared Library (`@nestject/shared`)
+*   **Single Source of Truth:** Define Zod schemas here first. Export both the Schema and the inferred Type.
     ```typescript
     import { z } from "zod";
-    export const userSchema = z.object({ ... });
+    export const userSchema = z.object({ name: z.string() });
     export type UserDto = z.infer<typeof userSchema>;
     ```
-*   **Usage:** Import using `@nestject/shared`.
-
-### Frontend (Next.js)
-*   **Components:**
-    *   Use **Shadcn UI** components from `@/components/ui`.
-    *   Create new components using functional syntax and typed props.
-*   **Data Fetching:**
-    *   **Do not write manual fetch calls.**
-    *   Use **Orval** generated hooks (`src/lib/api/generated.ts`).
-    *   If the backend API changes, run `pnpm --filter @nestject/frontend generate:api`.
-*   **Forms:**
-    *   Use **React Hook Form** with `zodResolver`.
-    *   Use the shared Zod schema for validation.
-*   **Styling:** Tailwind CSS utility classes.
 
 ### Backend (NestJS)
-*   **Validation:**
-    *   Use `nestjs-zod`.
-    *   Create DTOs using `createZodDto` from the shared Zod schema.
+*   **Architecture:** Modular (Controller -> Service -> Database).
+*   **Validation:** Use `nestjs-zod`. Create DTOs by extending the shared schema:
     ```typescript
-    import { createZodDto } from 'nestjs-zod';
-    import { userSchema } from '@nestject/shared';
-    export class CreateUserDto extends createZodDto(userSchema) {}
+    class CreateUserDto extends createZodDto(userSchema) {}
     ```
-*   **Documentation:** Swagger is auto-generated. Ensure DTOs are used in controllers so Swagger picks them up.
-*   **Logging:** Use `nestjs-pino` (`Logger` from `nestjs-pino`, not `@nestjs/common`).
+*   **Database (Drizzle):**
+    *   Define tables in `src/db/schema.ts`.
+    *   Inject `DATABASE_CONNECTION` to access the `db` instance.
+    *   Use explicit types for queries.
+*   **Logging:** Use `nestjs-pino`. Inject `Logger` from `nestjs-pino`.
+
+### Frontend (Next.js)
+*   **Data Fetching:** **NEVER** write manual `fetch` or `axios` calls.
+    *   Use **Orval** generated hooks from `@/lib/api`.
+    *   Example: `const { data, isLoading } = usePropertiesControllerFindAll();`
+*   **UI Components:** Use **Shadcn UI** from `@/components/ui`.
+    *   Add new components via CLI: `pnpm dlx shadcn@latest add [component]`.
+*   **Forms:** Use `react-hook-form` + `zodResolver` + Shared Zod Schema.
+*   **Styling:** Tailwind CSS utility classes. Avoid arbitrary values (`w-[123px]`); use theme tokens.
 
 ---
 
-## 4. Error Handling
+## 4. Development Workflow (The "Feature Dev" Cycle)
 
-*   **Frontend:** Use Error Boundaries. Handle API errors in TanStack Query `onError` callbacks or global query cache settings.
-*   **Backend:** Use standard NestJS HTTP Exceptions (e.g., `NotFoundException`). `ZodValidationPipe` handles validation errors automatically.
+Follow this strict order when implementing features involving full-stack data flow:
 
-## 5. Development Workflow
+1.  **Shared:** Update `@nestject/shared` with new Zod Schemas/Types.
+2.  **Backend DB:** Update `schema.ts`, run `db:generate` & `db:migrate`.
+3.  **Backend API:** Implement Controller/Service using the Shared DTOs.
+4.  **Codegen:** Run `pnpm --filter @nestject/frontend generate:api` (ensure backend is running).
+5.  **Frontend:** Build UI using the new generated React Query hooks.
 
-1.  **Define Type:** Add Zod schema to `@nestject/shared`.
-2.  **Backend:** Create Controller/Service using the Zod DTO.
-3.  **Generate:** Run `pnpm --filter @nestject/frontend generate:api` (requires backend running).
-4.  **Frontend:** Import the generated hook (e.g., `useCreateUser`) and build the UI.
+---
+
+## 5. Error Handling & Quality
+
+*   **Backend:** Throw standard NestJS `HttpException` (e.g., `NotFoundException`). Let the global filter handle the response structure.
+*   **Frontend:** Handle `isError` and `error` states from React Query hooks. Use Error Boundaries for critical crashes.
+*   **Commits:** Use conventional commits (feat, fix, docs, chore).
+
+## 6. Feature Development Agents
+
+When asked to build a complex feature, adopt the **7-Phase Workflow** detailed in `docs/FEATURE_DEV.md`.
+
+*   **Code Explorer:** Analyze existing patterns first.
+*   **Code Architect:** Design the Schema -> API -> UI flow.
+*   **Code Reviewer:** Verify compliance with this file.

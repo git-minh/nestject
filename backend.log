@@ -1,0 +1,215 @@
+
+> @nestject/backend@0.0.1 start:dev /home/azureuser/projects/goject/apps/backend
+> nest start --watch
+
+[2J[3J[H[[90m7:06:08 AM[0m] Starting compilation in watch mode...
+
+[[90m7:06:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:06:12.095] INFO (3103510): Starting Nest application... {"context":"NestFactory"}
+[07:06:12.095] INFO (3103510): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:06:12.095] INFO (3103510): AppController {/}: {"context":"RoutesResolver"}
+[07:06:12.095] INFO (3103510): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:06:12.095] INFO (3103510): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:06:12.095] INFO (3103510): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:06:12.095] INFO (3103510): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:06:12.095] INFO (3103510): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:06:12.095] INFO (3103510): Nest application successfully started {"context":"NestApplication"}
+[07:06:12.096] INFO (3103510): Application is running on: http://[::1]:3001
+[07:06:12.096] INFO (3103510): Swagger is running on: http://[::1]:3001/api
+/home/azureuser/projects/goject/apps/backend:
+ ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL  @nestject/backend@0.0.1 start:dev: `nest start --watch`
+Command failed with signal "SIGTERM"
+[2J[3J[H[[90m7:11:38 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:11:38 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:11:39.787] INFO (3105636): Starting Nest application... {"context":"NestFactory"}
+[07:11:39.788] INFO (3105636): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:11:39.788] INFO (3105636): AppController {/}: {"context":"RoutesResolver"}
+[07:11:39.788] INFO (3105636): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:11:39.788] INFO (3105636): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:11:39.788] INFO (3105636): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:11:39.788] INFO (3105636): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:11:39.788] INFO (3105636): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:11:39.788] INFO (3105636): Nest application successfully started {"context":"NestApplication"}
+[07:11:39.788] INFO (3105636): Application is running on: http://[::1]:3001
+[07:11:39.789] INFO (3105636): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:12:23 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:12:23 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:12:24.298] INFO (3105966): Starting Nest application... {"context":"NestFactory"}
+[07:12:24.298] INFO (3105966): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:24.298] INFO (3105966): AppController {/}: {"context":"RoutesResolver"}
+[07:12:24.298] INFO (3105966): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:12:24.299] INFO (3105966): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:12:24.299] INFO (3105966): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:12:24.299] INFO (3105966): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:12:24.299] INFO (3105966): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:12:24.299] INFO (3105966): Nest application successfully started {"context":"NestApplication"}
+[07:12:24.299] INFO (3105966): Application is running on: http://[::1]:3001
+[07:12:24.299] INFO (3105966): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:12:47 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:12:47 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:12:48.810] INFO (3106171): Starting Nest application... {"context":"NestFactory"}
+[07:12:48.810] INFO (3106171): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.810] INFO (3106171): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.810] INFO (3106171): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.810] INFO (3106171): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.811] INFO (3106171): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.811] INFO (3106171): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:12:48.811] INFO (3106171): AppController {/}: {"context":"RoutesResolver"}
+[07:12:48.811] INFO (3106171): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:12:48.811] INFO (3106171): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:12:48.811] INFO (3106171): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:12:48.811] INFO (3106171): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:12:48.811] INFO (3106171): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:12:48.811] INFO (3106171): Nest application successfully started {"context":"NestApplication"}
+[07:12:48.811] INFO (3106171): Application is running on: http://[::1]:3001
+[07:12:48.811] INFO (3106171): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:13:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:13:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:13:55.224] INFO (3106503): Starting Nest application... {"context":"NestFactory"}
+[07:13:55.225] INFO (3106503): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:13:55.225] INFO (3106503): AppController {/}: {"context":"RoutesResolver"}
+[07:13:55.225] INFO (3106503): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:13:55.225] INFO (3106503): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:13:55.225] INFO (3106503): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:13:55.225] INFO (3106503): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:13:55.225] INFO (3106503): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:13:55.225] INFO (3106503): Nest application successfully started {"context":"NestApplication"}
+[07:13:55.225] INFO (3106503): Application is running on: http://[::1]:3001
+[07:13:55.225] INFO (3106503): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:13:59 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:13:59 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:14:00.309] INFO (3106573): Starting Nest application... {"context":"NestFactory"}
+[07:14:00.309] INFO (3106573): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:00.309] INFO (3106573): AppController {/}: {"context":"RoutesResolver"}
+[07:14:00.309] INFO (3106573): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:14:00.310] INFO (3106573): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:14:00.310] INFO (3106573): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:14:00.310] INFO (3106573): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:14:00.310] INFO (3106573): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:14:00.310] INFO (3106573): Nest application successfully started {"context":"NestApplication"}
+[07:14:00.310] INFO (3106573): Application is running on: http://[::1]:3001
+[07:14:00.310] INFO (3106573): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:14:17 AM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS6053: [0mFile '/home/azureuser/projects/goject/apps/backend/check-db.ts' not found.
+  The file is in the program because:
+    Matched by default include pattern '**/*'
+
+[[90m7:14:17 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:14:18 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:14:18 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:14:19.496] INFO (3106750): Starting Nest application... {"context":"NestFactory"}
+[07:14:19.497] INFO (3106750): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:14:19.497] INFO (3106750): AppController {/}: {"context":"RoutesResolver"}
+[07:14:19.497] INFO (3106750): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:14:19.497] INFO (3106750): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:14:19.497] INFO (3106750): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:14:19.497] INFO (3106750): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:14:19.497] INFO (3106750): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:14:19.497] INFO (3106750): Nest application successfully started {"context":"NestApplication"}
+[07:14:19.497] INFO (3106750): Application is running on: http://[::1]:3001
+[07:14:19.497] INFO (3106750): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:23:13 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:23:13 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:23:14.535] INFO (3108668): Starting Nest application... {"context":"NestFactory"}
+[07:23:14.536] INFO (3108668): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:14.536] INFO (3108668): AppController {/}: {"context":"RoutesResolver"}
+[07:23:14.536] INFO (3108668): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:23:14.536] INFO (3108668): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:23:14.536] INFO (3108668): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:23:14.536] INFO (3108668): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:23:14.536] INFO (3108668): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:23:14.536] INFO (3108668): Nest application successfully started {"context":"NestApplication"}
+[07:23:14.536] INFO (3108668): Application is running on: http://[::1]:3001
+[07:23:14.536] INFO (3108668): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:23:53 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:23:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:23:54.801] INFO (3109148): Starting Nest application... {"context":"NestFactory"}
+[07:23:54.802] INFO (3109148): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:23:54.802] INFO (3109148): AppController {/}: {"context":"RoutesResolver"}
+[07:23:54.802] INFO (3109148): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:23:54.802] INFO (3109148): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:23:54.802] INFO (3109148): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:23:54.802] INFO (3109148): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:23:54.802] INFO (3109148): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:23:54.802] INFO (3109148): Nest application successfully started {"context":"NestApplication"}
+[07:23:54.803] INFO (3109148): Application is running on: http://[::1]:3001
+[07:23:54.803] INFO (3109148): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:23:59 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:23:59 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:24:00.411] INFO (3109209): Starting Nest application... {"context":"NestFactory"}
+[07:24:00.412] INFO (3109209): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:24:00.412] INFO (3109209): AppController {/}: {"context":"RoutesResolver"}
+[07:24:00.412] INFO (3109209): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:24:00.412] INFO (3109209): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:24:00.412] INFO (3109209): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:24:00.412] INFO (3109209): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:24:00.412] INFO (3109209): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:24:00.412] INFO (3109209): Nest application successfully started {"context":"NestApplication"}
+[07:24:00.413] INFO (3109209): Application is running on: http://[::1]:3001
+[07:24:00.413] INFO (3109209): Swagger is running on: http://[::1]:3001/api
