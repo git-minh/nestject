@@ -101,9 +101,11 @@ pnpm dev
 | `pnpm dev` | Start all apps in parallel |
 | `pnpm build` | Build all apps |
 | `pnpm lint` | Lint all apps |
-| `pnpm --filter @nestject/frontend dev` | Start only frontend |
-| `pnpm --filter @nestject/backend start:dev` | Start only backend |
-| `pnpm --filter @nestject/backend test` | Run backend tests |
+| `pnpm dev:frontend` | Start only frontend |
+| `pnpm dev:backend` | Start only backend |
+| `pnpm gen:api` | Generate Frontend API Client from Backend |
+| `pnpm db:generate` | Generate Drizzle migrations |
+| `pnpm db:migrate` | Apply Drizzle migrations |
 
 ---
 

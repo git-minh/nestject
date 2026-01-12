@@ -6,7 +6,12 @@
     "dev": "turbo dev",
     "lint": "turbo lint",
     "test": "turbo test",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "gen:api": "pnpm --filter @nestject/frontend generate:api",
+    "db:generate": "pnpm --filter @nestject/backend db:generate",
+    "db:migrate": "pnpm --filter @nestject/backend db:migrate",
+    "dev:frontend": "pnpm --filter @nestject/frontend dev",
+    "dev:backend": "pnpm --filter @nestject/backend start:dev"
   },
   "devDependencies": {
     "prettier": "latest",
