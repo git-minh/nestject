@@ -1,12 +1,23 @@
 "use client";
 
 import { usePropertiesControllerFindAll } from "@/lib/api/properties/properties";
+import { CreatePropertyDto } from "@/lib/api/model";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Loader2, Plus } from "lucide-react";
 
+interface Property extends CreatePropertyDto {
+  id: number;
+  electric_id?: string;
+  water_id?: string;
+}
+
 export default function PropertiesPage() {
-  const { data: properties, isLoading, error } = usePropertiesControllerFindAll();
+  const {
+    data: properties,
+    isLoading,
+    error,
+  } = usePropertiesControllerFindAll();
 
   if (isLoading) {
     return (
@@ -24,6 +35,8 @@ export default function PropertiesPage() {
     );
   }
 
+  const propertyList = (properties?.data as unknown as Property[]) || [];
+
   return (
     <div className="p-8 space-y-6">
       <div className="flex items-center justify-between">
@@ -34,12 +47,12 @@ export default function PropertiesPage() {
       </div>
 
       <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
-        {properties?.data.length === 0 ? (
+        {propertyList.length === 0 ? (
           <p className="text-muted-foreground col-span-full">
             No properties found.
           </p>
         ) : (
-          properties?.data.map((property) => (
+          propertyList.map((property) => (
             <Card key={property.id}>
               <CardHeader>
                 <CardTitle className="flex justify-between items-center">
