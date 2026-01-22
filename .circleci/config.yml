@@ -1,0 +1,173 @@
+version: 2.1
+
+orbs:
+  node: circleci/node@5.2.0
+
+executors:
+  node-executor:
+    docker:
+      - image: cimg/node:20.11
+    working_directory: ~/project
+
+  node-postgres-executor:
+    docker:
+      - image: cimg/node:20.11
+      - image: cimg/postgres:16.2
+        environment:
+          POSTGRES_USER: postgres
+          POSTGRES_PASSWORD: postgres
+          POSTGRES_DB: nestject_test
+    working_directory: ~/project
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@localhost:5432/nestject_test
+
+commands:
+  setup-pnpm:
+    description: Install pnpm and restore cache
+    steps:
+      - run:
+          name: Install pnpm
+          command: |
+            corepack enable
+            corepack prepare pnpm@10.20.0 --activate
+      - restore_cache:
+          name: Restore pnpm store cache
+          keys:
+            - pnpm-store-v1-{{ checksum "pnpm-lock.yaml" }}
+            - pnpm-store-v1-
+
+  save-pnpm-cache:
+    description: Save pnpm store cache
+    steps:
+      - save_cache:
+          name: Save pnpm store cache
+          key: pnpm-store-v1-{{ checksum "pnpm-lock.yaml" }}
+          paths:
+            - ~/.local/share/pnpm/store
+
+  restore-turbo-cache:
+    description: Restore Turbo cache
+    steps:
+      - restore_cache:
+          name: Restore Turbo cache
+          keys:
+            - turbo-cache-v1-{{ .Branch }}-{{ .Revision }}
+            - turbo-cache-v1-{{ .Branch }}-
+            - turbo-cache-v1-
+
+  save-turbo-cache:
+    description: Save Turbo cache
+    steps:
+      - save_cache:
+          name: Save Turbo cache
+          key: turbo-cache-v1-{{ .Branch }}-{{ .Revision }}
+          paths:
+            - .turbo
+
+  wait-for-postgres:
+    description: Wait for PostgreSQL to be ready
+    steps:
+      - run:
+          name: Wait for PostgreSQL
+          command: |
+            for i in $(seq 1 30); do
+              pg_isready -h localhost -p 5432 -U postgres && exit 0
+              sleep 1
+            done
+            echo "PostgreSQL is not ready after 30 seconds"
+            exit 1
+
+jobs:
+  install:
+    executor: node-executor
+    steps:
+      - checkout
+      - setup-pnpm
+      - run:
+          name: Install dependencies
+          command: pnpm install --frozen-lockfile
+      - save-pnpm-cache
+      - persist_to_workspace:
+          root: .
+          paths:
+            - .
+            - node_modules
+            - apps/*/node_modules
+            - packages/*/node_modules
+
+  lint:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - setup-pnpm
+      - restore-turbo-cache
+      - run:
+          name: Run linting
+          command: pnpm lint
+      - save-turbo-cache
+
+  build:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - setup-pnpm
+      - restore-turbo-cache
+      - run:
+          name: Build all packages
+          command: pnpm build
+      - save-turbo-cache
+      - persist_to_workspace:
+          root: .
+          paths:
+            - apps/*/dist
+            - packages/*/dist
+
+  unit-test:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - setup-pnpm
+      - run:
+          name: Run unit tests
+          command: pnpm --filter @nestject/backend test:ci
+      - store_test_results:
+          path: apps/backend/coverage
+      - store_artifacts:
+          path: apps/backend/coverage
+          destination: coverage
+
+  e2e-test:
+    executor: node-postgres-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - setup-pnpm
+      - wait-for-postgres
+      - run:
+          name: Run database migrations
+          command: pnpm --filter @nestject/backend db:migrate
+      - run:
+          name: Run E2E tests
+          command: pnpm --filter @nestject/backend test:e2e
+          no_output_timeout: 5m
+
+workflows:
+  version: 2
+  ci:
+    jobs:
+      - install
+      - lint:
+          requires:
+            - install
+      - build:
+          requires:
+            - install
+      - unit-test:
+          requires:
+            - build
+      - e2e-test:
+          requires:
+            - build
