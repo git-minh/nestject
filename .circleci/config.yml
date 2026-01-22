@@ -21,6 +21,11 @@ executors:
     environment:
       DATABASE_URL: postgresql://postgres:postgres@localhost:5432/nestject_test
 
+  docker-executor:
+    docker:
+      - image: cimg/base:current
+    working_directory: ~/project
+
 commands:
   setup-pnpm:
     description: Install pnpm and restore cache
@@ -122,6 +127,7 @@ jobs:
           root: .
           paths:
             - apps/*/dist
+            - apps/*/.next
             - packages/*/dist
 
   unit-test:
@@ -154,8 +160,102 @@ jobs:
           command: pnpm --filter @nestject/backend test:e2e:ci
           no_output_timeout: 5m
 
+  # ================================
+  # Deployment Jobs
+  # ================================
+
+  build-docker:
+    executor: docker-executor
+    steps:
+      - checkout
+      - setup_remote_docker:
+          version: 20.10.24
+          docker_layer_caching: true
+      - run:
+          name: Build Docker image
+          command: |
+            docker build -f apps/backend/Dockerfile \
+              -t nestject-backend:${CIRCLE_SHA1:0:7} \
+              -t nestject-backend:latest \
+              .
+      - run:
+          name: Save Docker image
+          command: |
+            mkdir -p /tmp/docker-images
+            docker save nestject-backend:${CIRCLE_SHA1:0:7} > /tmp/docker-images/backend.tar
+      - persist_to_workspace:
+          root: /tmp
+          paths:
+            - docker-images
+
+  push-docker:
+    executor: docker-executor
+    steps:
+      - setup_remote_docker:
+          version: 20.10.24
+      - attach_workspace:
+          at: /tmp
+      - run:
+          name: Load Docker image
+          command: docker load < /tmp/docker-images/backend.tar
+      - run:
+          name: Push to Docker Hub
+          command: |
+            echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+            docker tag nestject-backend:${CIRCLE_SHA1:0:7} ${DOCKER_USERNAME}/nestject-backend:${CIRCLE_SHA1:0:7}
+            docker tag nestject-backend:${CIRCLE_SHA1:0:7} ${DOCKER_USERNAME}/nestject-backend:latest
+            docker push ${DOCKER_USERNAME}/nestject-backend:${CIRCLE_SHA1:0:7}
+            docker push ${DOCKER_USERNAME}/nestject-backend:latest
+
+  migrate-production:
+    executor: node-executor
+    steps:
+      - attach_workspace:
+          at: .
+      - setup-pnpm
+      - run:
+          name: Run production migrations
+          command: pnpm --filter @nestject/backend db:migrate
+          environment:
+            DATABASE_URL: ${PRODUCTION_DATABASE_URL}
+
+  deploy-railway:
+    executor: docker-executor
+    steps:
+      - checkout
+      - run:
+          name: Install Railway CLI
+          command: |
+            curl -fsSL https://railway.app/install.sh | sh
+      - run:
+          name: Deploy to Railway
+          command: |
+            railway up --service backend --detach
+          environment:
+            RAILWAY_TOKEN: ${RAILWAY_TOKEN}
+
+  # Alternative: Deploy to Fly.io
+  deploy-fly:
+    executor: docker-executor
+    steps:
+      - checkout
+      - run:
+          name: Install Fly CLI
+          command: |
+            curl -L https://fly.io/install.sh | sh
+            echo 'export PATH="$HOME/.fly/bin:$PATH"' >> $BASH_ENV
+            source $BASH_ENV
+      - run:
+          name: Deploy to Fly.io
+          command: |
+            flyctl deploy --remote-only --config apps/backend/fly.toml
+          environment:
+            FLY_API_TOKEN: ${FLY_API_TOKEN}
+
 workflows:
   version: 2
+
+  # CI workflow - runs on all branches
   ci:
     jobs:
       - install
@@ -171,3 +271,44 @@ workflows:
       - e2e-test:
           requires:
             - build
+
+  # CD workflow - runs only on master branch
+  cd:
+    jobs:
+      - install:
+          filters:
+            branches:
+              only: master
+      - build:
+          requires:
+            - install
+          filters:
+            branches:
+              only: master
+      - build-docker:
+          requires:
+            - build
+          filters:
+            branches:
+              only: master
+      - push-docker:
+          requires:
+            - build-docker
+          filters:
+            branches:
+              only: master
+          context: docker-hub
+      - migrate-production:
+          requires:
+            - push-docker
+          filters:
+            branches:
+              only: master
+          context: production
+      - deploy-railway:
+          requires:
+            - migrate-production
+          filters:
+            branches:
+              only: master
+          context: production
