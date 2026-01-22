@@ -151,7 +151,7 @@ jobs:
           command: pnpm --filter @nestject/backend db:migrate
       - run:
           name: Run E2E tests
-          command: pnpm --filter @nestject/backend test:e2e
+          command: pnpm --filter @nestject/backend test:e2e:ci
           no_output_timeout: 5m
 
 workflows:
