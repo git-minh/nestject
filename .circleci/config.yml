@@ -28,8 +28,8 @@ commands:
       - run:
           name: Install pnpm
           command: |
-            corepack enable
-            corepack prepare pnpm@10.20.0 --activate
+            sudo corepack enable
+            sudo corepack prepare pnpm@10.20.0 --activate
       - restore_cache:
           name: Restore pnpm store cache
           keys:
