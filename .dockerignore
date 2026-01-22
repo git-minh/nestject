@@ -1,0 +1,47 @@
+# Dependencies
+node_modules
+**/node_modules
+.pnpm-store
+
+# Build outputs
+**/dist
+**/.next
+**/.turbo
+
+# Development files
+*.log
+.env
+.env.*
+!.env.example
+
+# Test files
+**/coverage
+**/*.spec.ts
+**/*.e2e-spec.ts
+**/test
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git
+.gitignore
+
+# Docker (don't copy Docker files into container)
+**/Dockerfile
+**/.dockerignore
+docker-compose*.yml
+
+# Documentation
+*.md
+docs
+
+# Sample files
+sample

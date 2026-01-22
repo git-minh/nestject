@@ -1,0 +1,33 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Build outputs (we build fresh in Docker)
+dist
+
+# Development files
+*.log
+.env
+.env.*
+!.env.example
+
+# Test files
+coverage
+*.spec.ts
+*.e2e-spec.ts
+test
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+Dockerfile
+.dockerignore
+docker-compose*.yml
