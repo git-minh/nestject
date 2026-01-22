@@ -5,6 +5,10 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { DatabaseModule } from './db/database.module';
 import { PropertiesModule } from './modules/properties/properties.module';
+import { UnitsModule } from './modules/units/units.module';
+import { TenantsModule } from './modules/tenants/tenants.module';
+import { LeasesModule } from './modules/leases/leases.module';
+import { BillsModule } from './modules/bills/bills.module';
 
 @Module({
   imports: [
@@ -21,6 +25,10 @@ import { PropertiesModule } from './modules/properties/properties.module';
       },
     }),
     PropertiesModule,
+    UnitsModule,
+    TenantsModule,
+    LeasesModule,
+    BillsModule,
   ],
   controllers: [AppController],
   providers: [AppService],

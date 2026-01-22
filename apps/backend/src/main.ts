@@ -8,6 +8,12 @@ async function bootstrap() {
   const app = await NestFactory.create(AppModule, { bufferLogs: true });
   app.useLogger(app.get(Logger));
 
+  // Enable CORS for frontend
+  app.enableCors({
+    origin: 'http://localhost:3000',
+    credentials: true,
+  });
+
   // Enable Zod Validation Globally
   app.useGlobalPipes(new ZodValidationPipe());
 

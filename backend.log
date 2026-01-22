@@ -213,3 +213,1337 @@ Command failed with signal "SIGTERM"
 [07:24:00.412] INFO (3109209): Nest application successfully started {"context":"NestApplication"}
 [07:24:00.413] INFO (3109209): Application is running on: http://[::1]:3001
 [07:24:00.413] INFO (3109209): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:34:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:34:10 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:34:11 AM[0m] File change detected. Starting incremental compilation...
+
+[07:34:11.569] INFO (3111093): Starting Nest application... {"context":"NestFactory"}
+[07:34:11.569] INFO (3111093): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:11.569] INFO (3111093): AppController {/}: {"context":"RoutesResolver"}
+[07:34:11.569] INFO (3111093): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:34:11.570] INFO (3111093): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:34:11.570] INFO (3111093): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:34:11.570] INFO (3111093): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:34:11.570] INFO (3111093): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:34:11.570] INFO (3111093): Nest application successfully started {"context":"NestApplication"}
+[07:34:11.574] INFO (3111093): Application is running on: http://[::1]:3001
+[07:34:11.574] INFO (3111093): Swagger is running on: http://[::1]:3001/api
+[[90m7:34:12 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:34:12.882] INFO (3111111): Starting Nest application... {"context":"NestFactory"}
+[07:34:12.882] INFO (3111111): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:12.882] INFO (3111111): AppController {/}: {"context":"RoutesResolver"}
+[07:34:12.882] INFO (3111111): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:34:12.882] INFO (3111111): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:34:12.882] INFO (3111111): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:34:12.882] INFO (3111111): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:34:12.883] INFO (3111111): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:34:12.883] INFO (3111111): Nest application successfully started {"context":"NestApplication"}
+[07:34:12.883] INFO (3111111): Application is running on: http://[::1]:3001
+[07:34:12.883] INFO (3111111): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:34:17 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/import/import.controller.ts[0m:[93m8[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './import.service' or its corresponding type declarations.
+
+[7m8[0m import { ImportService } from './import.service';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/import/import.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './import.service' or its corresponding type declarations.
+
+[7m3[0m import { ImportService } from './import.service';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m7:34:17 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m7:34:21 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:34:21 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:34:22.050] INFO (3111262): Starting Nest application... {"context":"NestFactory"}
+[07:34:22.051] INFO (3111262): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:22.051] INFO (3111262): AppController {/}: {"context":"RoutesResolver"}
+[07:34:22.051] INFO (3111262): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:34:22.051] INFO (3111262): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:34:22.051] INFO (3111262): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:34:22.051] INFO (3111262): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:34:22.051] INFO (3111262): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:34:22.051] INFO (3111262): Nest application successfully started {"context":"NestApplication"}
+[07:34:22.052] INFO (3111262): Application is running on: http://[::1]:3001
+[07:34:22.052] INFO (3111262): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:34:40 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:34:40 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:34:41.145] INFO (3111443): Starting Nest application... {"context":"NestFactory"}
+[07:34:41.146] INFO (3111443): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): ImportModule dependencies initialized {"context":"InstanceLoader"}
+[07:34:41.146] INFO (3111443): AppController {/}: {"context":"RoutesResolver"}
+[07:34:41.146] INFO (3111443): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:34:41.146] INFO (3111443): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:34:41.146] INFO (3111443): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:34:41.146] INFO (3111443): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:34:41.146] INFO (3111443): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:34:41.146] INFO (3111443): ImportController {/import}: {"context":"RoutesResolver"}
+[07:34:41.146] INFO (3111443): Mapped {/import/excel, POST} route {"context":"RouterExplorer"}
+[07:34:41.146] INFO (3111443): Nest application successfully started {"context":"NestApplication"}
+[07:34:41.147] INFO (3111443): Application is running on: http://[::1]:3001
+[07:34:41.147] INFO (3111443): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:39:12 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m8[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './modules/import/import.module' or its corresponding type declarations.
+
+[7m8[0m import { ImportModule } from './modules/import/import.module';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m7:39:13 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:39:14 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m8[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './modules/import/import.module' or its corresponding type declarations.
+
+[7m8[0m import { ImportModule } from './modules/import/import.module';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m7:39:14 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:39:18 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m8[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './modules/import/import.module' or its corresponding type declarations.
+
+[7m8[0m import { ImportModule } from './modules/import/import.module';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m7:39:18 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:39:19 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m8[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './modules/import/import.module' or its corresponding type declarations.
+
+[7m8[0m import { ImportModule } from './modules/import/import.module';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m7:39:19 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m7:39:26 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:39:27 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:39:27.775] INFO (3113437): Starting Nest application... {"context":"NestFactory"}
+[07:39:27.775] INFO (3113437): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.775] INFO (3113437): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.775] INFO (3113437): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.775] INFO (3113437): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.775] INFO (3113437): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.775] INFO (3113437): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:39:27.776] INFO (3113437): AppController {/}: {"context":"RoutesResolver"}
+[07:39:27.776] INFO (3113437): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:39:27.776] INFO (3113437): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:39:27.776] INFO (3113437): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:39:27.776] INFO (3113437): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:39:27.776] INFO (3113437): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:39:27.776] INFO (3113437): Nest application successfully started {"context":"NestApplication"}
+[07:39:27.776] INFO (3113437): Application is running on: http://[::1]:3001
+[07:39:27.776] INFO (3113437): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:44:20 AM[0m] File change detected. Starting incremental compilation...
+
+[2J[3J[H[[90m7:44:27 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:44:28 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:44:28.863] INFO (3116424): Starting Nest application... {"context":"NestFactory"}
+[07:44:28.863] INFO (3116424): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:28.863] INFO (3116424): AppController {/}: {"context":"RoutesResolver"}
+[07:44:28.863] INFO (3116424): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:44:28.863] INFO (3116424): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:44:28.863] INFO (3116424): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:44:28.863] INFO (3116424): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:44:28.863] INFO (3116424): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:44:28.863] INFO (3116424): Nest application successfully started {"context":"NestApplication"}
+[07:44:28.865] INFO (3116424): Application is running on: http://[::1]:3001
+[07:44:28.865] INFO (3116424): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:44:28 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:44:29 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:44:29.890] INFO (3116445): Starting Nest application... {"context":"NestFactory"}
+[07:44:29.890] INFO (3116445): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.890] INFO (3116445): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.890] INFO (3116445): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.890] INFO (3116445): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.890] INFO (3116445): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.890] INFO (3116445): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:29.891] INFO (3116445): AppController {/}: {"context":"RoutesResolver"}
+[07:44:29.891] INFO (3116445): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:44:29.891] INFO (3116445): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:44:29.891] INFO (3116445): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:44:29.891] INFO (3116445): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:44:29.891] INFO (3116445): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:44:29.891] INFO (3116445): Nest application successfully started {"context":"NestApplication"}
+[07:44:29.892] INFO (3116445): Application is running on: http://[::1]:3001
+[07:44:29.892] INFO (3116445): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:44:35 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:44:36 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:44:37.200] INFO (3116592): Starting Nest application... {"context":"NestFactory"}
+[07:44:37.201] INFO (3116592): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:37.201] INFO (3116592): AppController {/}: {"context":"RoutesResolver"}
+[07:44:37.201] INFO (3116592): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:44:37.201] INFO (3116592): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:44:37.201] INFO (3116592): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:44:37.201] INFO (3116592): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:44:37.201] INFO (3116592): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:44:37.201] INFO (3116592): Nest application successfully started {"context":"NestApplication"}
+[07:44:37.202] INFO (3116592): Application is running on: http://[::1]:3001
+[07:44:37.202] INFO (3116592): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m7:44:53 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m7:44:54 AM[0m] Found 0 errors. Watching for file changes.
+
+[07:44:55.002] INFO (3116911): Starting Nest application... {"context":"NestFactory"}
+[07:44:55.002] INFO (3116911): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): AppModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[07:44:55.002] INFO (3116911): AppController {/}: {"context":"RoutesResolver"}
+[07:44:55.002] INFO (3116911): Mapped {/, GET} route {"context":"RouterExplorer"}
+[07:44:55.002] INFO (3116911): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[07:44:55.003] INFO (3116911): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[07:44:55.003] INFO (3116911): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[07:44:55.003] INFO (3116911): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[07:44:55.003] INFO (3116911): Nest application successfully started {"context":"NestApplication"}
+[07:44:55.003] INFO (3116911): Application is running on: http://[::1]:3001
+[07:44:55.003] INFO (3116911): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m10:20:59 AM[0m] File change detected. Starting incremental compilation...
+
+[2J[3J[H[[90m10:31:25 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m10:31:25 AM[0m] Found 0 errors. Watching for file changes.
+
+[10:31:26.465] INFO (3155956): Starting Nest application... {"context":"NestFactory"}
+[10:31:26.466] INFO (3155956): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): AppModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[10:31:26.466] INFO (3155956): AppController {/}: {"context":"RoutesResolver"}
+[10:31:26.466] INFO (3155956): Mapped {/, GET} route {"context":"RouterExplorer"}
+[10:31:26.466] INFO (3155956): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[10:31:26.466] INFO (3155956): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[10:31:26.466] INFO (3155956): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[10:31:26.466] INFO (3155956): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[10:31:26.466] INFO (3155956): Nest application successfully started {"context":"NestApplication"}
+[10:31:26.467] INFO (3155956): Application is running on: http://[::1]:3001
+[10:31:26.467] INFO (3155956): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m3:33:00 AM[0m] File change detected. Starting incremental compilation...
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'Array'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'Boolean'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'Function'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'IArguments'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'Number'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'Object'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'RegExp'.
+
+[91merror[0m[90m TS2318: [0mCannot find global type 'String'.
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'express'.
+  The file is in the program because:
+    Entry point for implicit type library 'express'
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'jest'.
+  The file is in the program because:
+    Entry point for implicit type library 'jest'
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'node'.
+  The file is in the program because:
+    Entry point for implicit type library 'node'
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'pg'.
+  The file is in the program because:
+    Entry point for implicit type library 'pg'
+
+[91merror[0m[90m TS2688: [0mCannot find type definition file for 'supertest'.
+  The file is in the program because:
+    Entry point for implicit type library 'supertest'
+
+[91merror[0m[90m TS6053: [0mFile '/home/azureuser/projects/goject/node_modules/.pnpm/typescript@5.9.3/node_modules/typescript/lib/lib.es2023.full.d.ts' not found.
+  The file is in the program because:
+    Default library for target 'es2023'
+
+[[90m3:33:00 AM[0m] Found 14 errors. Watching for file changes.
+
+[2J[3J[H[[90m3:33:03 AM[0m] File change detected. Starting incremental compilation...
+
+[96mdrizzle.config.ts[0m:[93m1[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-kit' or its corresponding type declarations.
+
+[7m1[0m import { defineConfig } from 'drizzle-kit';
+[7m [0m [91m                             ~~~~~~~~~~~~~[0m
+
+[96mdrizzle.config.ts[0m:[93m8[0m:[93m10[0m - [91merror[0m[90m TS2580: [0mCannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+
+[7m8[0m     url: process.env.DATABASE_URL!,
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/app.controller.ts[0m:[93m1[0m:[93m45[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Controller, Get, Post, Body } from '@nestjs/common';
+[7m [0m [91m                                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.controller.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nestjs-zod' or its corresponding type declarations.
+
+[7m3[0m import { createZodDto } from 'nestjs-zod';
+[7m [0m [91m                             ~~~~~~~~~~~~[0m
+
+[96msrc/app.controller.ts[0m:[93m4[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestject/shared' or its corresponding type declarations.
+
+[7m4[0m import { userSchema } from '@nestject/shared';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.module.ts[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module } from '@nestjs/common';
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.module.ts[0m:[93m2[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/config' or its corresponding type declarations.
+
+[7m2[0m import { ConfigModule } from '@nestjs/config';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/app.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nestjs-pino' or its corresponding type declarations.
+
+[7m3[0m import { LoggerModule } from 'nestjs-pino';
+[7m [0m [91m                             ~~~~~~~~~~~~~[0m
+
+[96msrc/app.service.ts[0m:[93m1[0m:[93m28[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable } from '@nestjs/common';
+[7m [0m [91m                           ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/db/database.module.ts[0m:[93m1[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module, Global } from '@nestjs/common';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/db/database.module.ts[0m:[93m2[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/node-postgres' or its corresponding type declarations.
+
+[7m2[0m import { drizzle } from 'drizzle-orm/node-postgres';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/db/database.module.ts[0m:[93m3[0m:[93m22[0m - [91merror[0m[90m TS2307: [0mCannot find module 'pg' or its corresponding type declarations.
+
+[7m3[0m import { Pool } from 'pg';
+[7m [0m [91m                     ~~~~[0m
+
+[96msrc/db/database.module.ts[0m:[93m5[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/config' or its corresponding type declarations.
+
+[7m5[0m import { ConfigService } from '@nestjs/config';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/db/schema.ts[0m:[93m11[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/pg-core' or its corresponding type declarations.
+
+[7m11[0m } from 'drizzle-orm/pg-core';
+[7m  [0m [91m       ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/main.ts[0m:[93m1[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/core' or its corresponding type declarations.
+
+[7m1[0m import { NestFactory } from '@nestjs/core';
+[7m [0m [91m                            ~~~~~~~~~~~~~~[0m
+
+[96msrc/main.ts[0m:[93m2[0m:[93m48[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/swagger' or its corresponding type declarations.
+
+[7m2[0m import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
+[7m [0m [91m                                               ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/main.ts[0m:[93m3[0m:[93m35[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nestjs-zod' or its corresponding type declarations.
+
+[7m3[0m import { ZodValidationPipe } from 'nestjs-zod';
+[7m [0m [91m                                  ~~~~~~~~~~~~[0m
+
+[96msrc/main.ts[0m:[93m4[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nestjs-pino' or its corresponding type declarations.
+
+[7m4[0m import { Logger } from 'nestjs-pino';
+[7m [0m [91m                       ~~~~~~~~~~~~~[0m
+
+[96msrc/main.ts[0m:[93m24[0m:[93m20[0m - [91merror[0m[90m TS2580: [0mCannot find name 'process'. Do you need to install type definitions for node? Try `npm i --save-dev @types/node`.
+
+[7m24[0m   await app.listen(process.env.PORT ?? 3001);
+[7m  [0m [91m                   ~~~~~~~[0m
+
+[96msrc/modules/properties/properties.controller.ts[0m:[93m1[0m:[93m45[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Controller, Get, Post, Body } from '@nestjs/common';
+[7m [0m [91m                                            ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.controller.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module 'nestjs-zod' or its corresponding type declarations.
+
+[7m3[0m import { createZodDto } from 'nestjs-zod';
+[7m [0m [91m                             ~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.controller.ts[0m:[93m4[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestject/shared' or its corresponding type declarations.
+
+[7m4[0m import { propertySchema } from '@nestject/shared';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.module.ts[0m:[93m1[0m:[93m24[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Module } from '@nestjs/common';
+[7m [0m [91m                       ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.service.ts[0m:[93m1[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestjs/common' or its corresponding type declarations.
+
+[7m1[0m import { Injectable, Inject } from '@nestjs/common';
+[7m [0m [91m                                   ~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.service.ts[0m:[93m3[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/node-postgres' or its corresponding type declarations.
+
+[7m3[0m import { NodePgDatabase } from 'drizzle-orm/node-postgres';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/properties/properties.service.ts[0m:[93m5[0m:[93m29[0m - [91merror[0m[90m TS2307: [0mCannot find module '@nestject/shared' or its corresponding type declarations.
+
+[7m5[0m import { PropertyDto } from '@nestject/shared';
+[7m [0m [91m                            ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:33:04 AM[0m] Found 26 errors. Watching for file changes.
+
+[2J[3J[H[[90m3:33:06 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:33:08 AM[0m] Found 0 errors. Watching for file changes.
+
+[2J[3J[H[[90m3:33:09 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:33:09 AM[0m] Found 0 errors. Watching for file changes.
+
+[03:33:10.248] INFO (3242829): Starting Nest application... {"context":"NestFactory"}
+[03:33:10.248] INFO (3242829): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): AppModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[03:33:10.248] INFO (3242829): AppController {/}: {"context":"RoutesResolver"}
+[03:33:10.248] INFO (3242829): Mapped {/, GET} route {"context":"RouterExplorer"}
+[03:33:10.248] INFO (3242829): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[03:33:10.248] INFO (3242829): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[03:33:10.248] INFO (3242829): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[03:33:10.248] INFO (3242829): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[03:33:10.248] INFO (3242829): Nest application successfully started {"context":"NestApplication"}
+[03:33:10.249] INFO (3242829): Application is running on: http://[::1]:3001
+[03:33:10.249] INFO (3242829): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m3:52:19 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m3:52:19 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m3:52:38 AM[0m] File change detected. Starting incremental compilation...
+
+[96m../../packages/shared/src/index.ts[0m:[93m7[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/pg-core' or its corresponding type declarations.
+
+[7m7[0m } from "drizzle-orm/pg-core";
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:52:39 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:52:48 AM[0m] File change detected. Starting incremental compilation...
+
+[96m../../packages/shared/src/index.ts[0m:[93m7[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/pg-core' or its corresponding type declarations.
+
+[7m7[0m } from "drizzle-orm/pg-core";
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:52:49 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m3:53:07 AM[0m] File change detected. Starting incremental compilation...
+
+[96m../../packages/shared/src/index.ts[0m:[93m7[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module 'drizzle-orm/pg-core' or its corresponding type declarations.
+
+[7m7[0m } from "drizzle-orm/pg-core";
+[7m [0m [91m       ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m3:53:07 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m4:10:18 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:10:18 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:37:40 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:37:40 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:37:44 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/units/units.module.ts[0m:[93m2[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module './units.controller' or its corresponding type declarations.
+
+[7m2[0m import { UnitsController } from './units.controller';
+[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/units/units.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './units.service' or its corresponding type declarations.
+
+[7m3[0m import { UnitsService } from './units.service';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:37:45 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:37:49 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/units/units.controller.ts[0m:[93m13[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './units.service' or its corresponding type declarations.
+
+[7m13[0m import { UnitsService } from './units.service';
+[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/units/units.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './units.service' or its corresponding type declarations.
+
+[7m3[0m import { UnitsService } from './units.service';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:37:49 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:37:56 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:37:56 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:38:00 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:38:00 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:38:07 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/tenants/tenants.module.ts[0m:[93m2[0m:[93m35[0m - [91merror[0m[90m TS2307: [0mCannot find module './tenants.controller' or its corresponding type declarations.
+
+[7m2[0m import { TenantsController } from './tenants.controller';
+[7m [0m [91m                                  ~~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/tenants/tenants.module.ts[0m:[93m3[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module './tenants.service' or its corresponding type declarations.
+
+[7m3[0m import { TenantsService } from './tenants.service';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:38:08 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:38:12 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/tenants/tenants.controller.ts[0m:[93m12[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module './tenants.service' or its corresponding type declarations.
+
+[7m12[0m import { TenantsService } from './tenants.service';
+[7m  [0m [91m                               ~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/tenants/tenants.module.ts[0m:[93m3[0m:[93m32[0m - [91merror[0m[90m TS2307: [0mCannot find module './tenants.service' or its corresponding type declarations.
+
+[7m3[0m import { TenantsService } from './tenants.service';
+[7m [0m [91m                               ~~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:38:12 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:38:15 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:38:16 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:38:24 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:38:24 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:38:35 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/leases/leases.module.ts[0m:[93m2[0m:[93m34[0m - [91merror[0m[90m TS2307: [0mCannot find module './leases.controller' or its corresponding type declarations.
+
+[7m2[0m import { LeasesController } from './leases.controller';
+[7m [0m [91m                                 ~~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './leases.service' or its corresponding type declarations.
+
+[7m3[0m import { LeasesService } from './leases.service';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:38:35 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:38:39 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m12[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './leases.service' or its corresponding type declarations.
+
+[7m12[0m import { LeasesService } from './leases.service';
+[7m  [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.module.ts[0m:[93m3[0m:[93m31[0m - [91merror[0m[90m TS2307: [0mCannot find module './leases.service' or its corresponding type declarations.
+
+[7m3[0m import { LeasesService } from './leases.service';
+[7m [0m [91m                              ~~~~~~~~~~~~~~~~~~[0m
+
+[[90m4:38:39 AM[0m] Found 3 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:38:48 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'LeaseDto'.
+
+[7m6[0m import { LeaseDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m4:38:48 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:38:58 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'LeaseDto'.
+
+[7m6[0m import { LeaseDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m4:38:58 AM[0m] Found 2 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:39:11 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/bills/bills.module.ts[0m:[93m2[0m:[93m33[0m - [91merror[0m[90m TS2307: [0mCannot find module './bills.controller' or its corresponding type declarations.
+
+[7m2[0m import { BillsController } from './bills.controller';
+[7m [0m [91m                                ~~~~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './bills.service' or its corresponding type declarations.
+
+[7m3[0m import { BillsService } from './bills.service';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'LeaseDto'.
+
+[7m6[0m import { LeaseDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m4:39:11 AM[0m] Found 4 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:39:17 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/bills/bills.controller.ts[0m:[93m11[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './bills.service' or its corresponding type declarations.
+
+[7m11[0m import { BillsService } from './bills.service';
+[7m  [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.controller.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'billSchema'.
+
+[7m13[0m import { billSchema, billItemSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.controller.ts[0m:[93m13[0m:[93m22[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'billItemSchema'.
+
+[7m13[0m import { billSchema, billItemSchema } from '@nestject/shared';
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.module.ts[0m:[93m3[0m:[93m30[0m - [91merror[0m[90m TS2307: [0mCannot find module './bills.service' or its corresponding type declarations.
+
+[7m3[0m import { BillsService } from './bills.service';
+[7m [0m [91m                             ~~~~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'LeaseDto'.
+
+[7m6[0m import { LeaseDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m4:39:17 AM[0m] Found 6 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:39:27 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/modules/bills/bills.controller.ts[0m:[93m13[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'billSchema'.
+
+[7m13[0m import { billSchema, billItemSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.controller.ts[0m:[93m13[0m:[93m22[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'billItemSchema'.
+
+[7m13[0m import { billSchema, billItemSchema } from '@nestject/shared';
+[7m  [0m [91m                     ~~~~~~~~~~~~~~[0m
+
+[96msrc/modules/bills/bills.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'BillDto'.
+
+[7m6[0m import { BillDto, BillItemDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~[0m
+
+[96msrc/modules/bills/bills.service.ts[0m:[93m6[0m:[93m19[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'BillItemDto'.
+
+[7m6[0m import { BillDto, BillItemDto } from '@nestject/shared';
+[7m [0m [91m                  ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.controller.ts[0m:[93m14[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'leaseSchema'.
+
+[7m14[0m import { leaseSchema } from '@nestject/shared';
+[7m  [0m [91m         ~~~~~~~~~~~[0m
+
+[96msrc/modules/leases/leases.service.ts[0m:[93m6[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"@nestject/shared"' has no exported member 'LeaseDto'.
+
+[7m6[0m import { LeaseDto } from '@nestject/shared';
+[7m [0m [91m         ~~~~~~~~[0m
+
+[[90m4:39:28 AM[0m] Found 6 errors. Watching for file changes.
+
+[2J[3J[H[[90m4:39:54 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:39:55 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.module'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/main.ts:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/azureuser/projects/goject/apps/backend/dist/src/main.js' ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m4:40:25 AM[0m] File change detected. Starting incremental compilation...
+
+[96msrc/main.ts[0m:[93m5[0m:[93m10[0m - [91merror[0m[90m TS2305: [0mModule '"./app.module"' has no exported member 'AppModule'.
+
+[7m5[0m import { AppModule } from './app.module';
+[7m [0m [91m         ~~~~~~~~~[0m
+
+[[90m4:40:25 AM[0m] Found 1 error. Watching for file changes.
+
+[2J[3J[H[[90m4:40:25 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m4:40:25 AM[0m] Found 0 errors. Watching for file changes.
+
+node:internal/modules/cjs/loader:1423
+  throw err;
+  ^
+
+Error: Cannot find module './app.controller'
+Require stack:
+- /home/azureuser/projects/goject/apps/backend/dist/src/app.module.js
+- /home/azureuser/projects/goject/apps/backend/dist/src/main.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1420:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1058:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1063:22)
+    at Module._load (node:internal/modules/cjs/loader:1226:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:244:24)
+    at Module.require (node:internal/modules/cjs/loader:1503:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (/home/azureuser/projects/goject/apps/backend/src/app.module.ts:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1760:14) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/azureuser/projects/goject/apps/backend/dist/src/app.module.js',
+    '/home/azureuser/projects/goject/apps/backend/dist/src/main.js'
+  ]
+}
+
+Node.js v24.11.0
+[2J[3J[H[[90m6:47:10 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:47:11 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:47:12.206] INFO (3946625): Starting Nest application... {"context":"NestFactory"}
+[06:47:12.207] INFO (3946625): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:12.207] INFO (3946625): AppController {/}: {"context":"RoutesResolver"}
+[06:47:12.207] INFO (3946625): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:47:12.207] INFO (3946625): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:47:12.207] INFO (3946625): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:47:12.207] INFO (3946625): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:47:12.208] INFO (3946625): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:47:12.208] INFO (3946625): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:47:12.208] INFO (3946625): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:47:12.208] INFO (3946625): Nest application successfully started {"context":"NestApplication"}
+[06:47:12.208] INFO (3946625): Application is running on: http://[::1]:3001
+[06:47:12.208] INFO (3946625): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:47:36 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:47:36 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:47:38.228] INFO (3946930): Starting Nest application... {"context":"NestFactory"}
+[06:47:38.228] INFO (3946930): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:47:38.228] INFO (3946930): AppController {/}: {"context":"RoutesResolver"}
+[06:47:38.228] INFO (3946930): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:47:38.228] INFO (3946930): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:47:38.228] INFO (3946930): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:47:38.228] INFO (3946930): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:47:38.229] INFO (3946930): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:47:38.229] INFO (3946930): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:47:38.229] INFO (3946930): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:47:38.229] INFO (3946930): Nest application successfully started {"context":"NestApplication"}
+[06:47:38.231] INFO (3946930): Application is running on: http://[::1]:3001
+[06:47:38.231] INFO (3946930): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:51:15 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:51:16 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:51:17.157] INFO (3950413): Starting Nest application... {"context":"NestFactory"}
+[06:51:17.158] INFO (3950413): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:51:17.158] INFO (3950413): AppController {/}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:51:17.158] INFO (3950413): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:51:17.158] INFO (3950413): Nest application successfully started {"context":"NestApplication"}
+[06:51:17.159] INFO (3950413): Application is running on: http://[::1]:3001
+[06:51:17.159] INFO (3950413): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:52:17 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:52:17 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:52:19.295] INFO (3951155): Starting Nest application... {"context":"NestFactory"}
+[06:52:19.296] INFO (3951155): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:19.296] INFO (3951155): AppController {/}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:52:19.296] INFO (3951155): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:52:19.296] INFO (3951155): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:52:19.297] INFO (3951155): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:19.297] INFO (3951155): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:52:19.297] INFO (3951155): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:52:19.297] INFO (3951155): Nest application successfully started {"context":"NestApplication"}
+[06:52:19.297] INFO (3951155): Application is running on: http://[::1]:3001
+[06:52:19.297] INFO (3951155): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:52:47 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:52:47 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:52:48.723] INFO (3951834): Starting Nest application... {"context":"NestFactory"}
+[06:52:48.723] INFO (3951834): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.723] INFO (3951834): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.724] INFO (3951834): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.724] INFO (3951834): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:52:48.724] INFO (3951834): AppController {/}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:52:48.724] INFO (3951834): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:52:48.724] INFO (3951834): Nest application successfully started {"context":"NestApplication"}
+[06:52:48.725] INFO (3951834): Application is running on: http://[::1]:3001
+[06:52:48.725] INFO (3951834): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:54:31 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:54:32 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:54:33.549] INFO (3953316): Starting Nest application... {"context":"NestFactory"}
+[06:54:33.550] INFO (3953316): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:33.550] INFO (3953316): AppController {/}: {"context":"RoutesResolver"}
+[06:54:33.550] INFO (3953316): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:54:33.550] INFO (3953316): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:54:33.550] INFO (3953316): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:54:33.550] INFO (3953316): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:54:33.551] INFO (3953316): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:54:33.551] INFO (3953316): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:54:33.551] INFO (3953316): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:54:33.551] INFO (3953316): Nest application successfully started {"context":"NestApplication"}
+[06:54:33.552] INFO (3953316): Application is running on: http://[::1]:3001
+[06:54:33.552] INFO (3953316): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:54:33 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:54:34 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:54:35.720] INFO (3953361): Starting Nest application... {"context":"NestFactory"}
+[06:54:35.720] INFO (3953361): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.720] INFO (3953361): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:35.721] INFO (3953361): AppController {/}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:54:35.721] INFO (3953361): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:54:35.721] INFO (3953361): Nest application successfully started {"context":"NestApplication"}
+[06:54:35.721] INFO (3953361): Application is running on: http://[::1]:3001
+[06:54:35.721] INFO (3953361): Swagger is running on: http://[::1]:3001/api
+[2J[3J[H[[90m6:54:44 AM[0m] File change detected. Starting incremental compilation...
+
+[[90m6:54:44 AM[0m] Found 0 errors. Watching for file changes.
+
+[06:54:46.037] INFO (3953575): Starting Nest application... {"context":"NestFactory"}
+[06:54:46.037] INFO (3953575): ConfigHostModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): AppModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): ConfigModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): LoggerModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): DatabaseModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): PropertiesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): UnitsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): TenantsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.037] INFO (3953575): LeasesModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.038] INFO (3953575): BillsModule dependencies initialized {"context":"InstanceLoader"}
+[06:54:46.038] INFO (3953575): AppController {/}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/users, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): PropertiesController {/properties}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/properties, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/properties, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): UnitsController {/units}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/units, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/units/:id, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/units, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/units/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/units/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): TenantsController {/tenants}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/tenants, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/tenants/:id, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/tenants, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/tenants/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/tenants/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): LeasesController {/leases}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/leases, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/leases/:id, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/leases, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/leases/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/leases/:id, DELETE} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): BillsController {/bills}: {"context":"RoutesResolver"}
+[06:54:46.038] INFO (3953575): Mapped {/bills, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/bills/:id, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/bills, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/bills/:id, PATCH} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/bills/:id/items, GET} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Mapped {/bills/:id/items, POST} route {"context":"RouterExplorer"}
+[06:54:46.038] INFO (3953575): Nest application successfully started {"context":"NestApplication"}
+[06:54:46.038] INFO (3953575): Application is running on: http://[::1]:3001
+[06:54:46.038] INFO (3953575): Swagger is running on: http://[::1]:3001/api

@@ -12,6 +12,7 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import { useRouter } from "next/navigation";
+import { toast } from "sonner";
 
 export default function SignUp() {
   const [email, setEmail] = useState("");
@@ -27,12 +28,12 @@ export default function SignUp() {
         name,
       },
       {
-        onSuccess: (ctx) => {
-          alert("Success!");
-          router.push("/");
+        onSuccess: () => {
+          toast.success("Account created successfully");
+          router.push("/properties");
         },
         onError: (ctx) => {
-          alert(ctx.error.message);
+          toast.error(ctx.error.message);
         },
       },
     );

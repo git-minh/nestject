@@ -5,8 +5,11 @@ import { Button } from "@/components/ui/button";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/card";
 import { Building, Users, Receipt, ArrowRight } from "lucide-react";
 import { APP_NAME } from "@nestject/shared";
+import { authClient } from "@/lib/auth-client";
 
 export default function LandingPage() {
+  const { data: session } = authClient.useSession();
+
   return (
     <div className="flex flex-col min-h-screen">
       {/* Header */}
@@ -27,12 +30,20 @@ export default function LandingPage() {
           </Link>
         </nav>
         <div className="flex gap-4">
-          <Link href="/sign-in">
-            <Button variant="ghost">Sign In</Button>
-          </Link>
-          <Link href="/sign-up">
-            <Button>Get Started</Button>
-          </Link>
+          {session ? (
+            <Link href="/properties">
+              <Button>Go to Dashboard</Button>
+            </Link>
+          ) : (
+            <>
+              <Link href="/sign-in">
+                <Button variant="ghost">Sign In</Button>
+              </Link>
+              <Link href="/sign-up">
+                <Button>Get Started</Button>
+              </Link>
+            </>
+          )}
         </div>
       </header>
 
@@ -48,11 +59,19 @@ export default function LandingPage() {
             tenants, automate billing, and gain insights instantly.
           </p>
           <div className="flex justify-center gap-4">
-            <Link href="/sign-up">
-              <Button size="lg" className="h-12 px-8">
-                Start for Free <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
+            {session ? (
+              <Link href="/properties">
+                <Button size="lg" className="h-12 px-8">
+                  Go to Dashboard <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            ) : (
+              <Link href="/sign-up">
+                <Button size="lg" className="h-12 px-8">
+                  Start for Free <ArrowRight className="ml-2 h-4 w-4" />
+                </Button>
+              </Link>
+            )}
             <Link href="/properties">
               <Button size="lg" variant="outline" className="h-12 px-8">
                 View Demo

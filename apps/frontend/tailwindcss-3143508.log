@@ -1,0 +1,146 @@
+2026-01-12T09:56:18.428489Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2026-01-12T09:56:18.428551Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "/home/azureuser/projects/goject/apps/frontend", pattern: "**/*", negated: false }
+2026-01-12T09:56:18.428610Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2026-01-12T09:56:18.428625Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "/home/azureuser/projects/goject/apps/frontend" }
+2026-01-12T09:56:18.430005Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.430587Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/package.json"
+2026-01-12T09:56:18.430639Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/README.md"
+2026-01-12T09:56:18.430684Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/next.config.ts"
+2026-01-12T09:56:18.430730Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public"
+2026-01-12T09:56:18.430800Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public/file.svg"
+2026-01-12T09:56:18.430839Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public/globe.svg"
+2026-01-12T09:56:18.430877Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public/vercel.svg"
+2026-01-12T09:56:18.430911Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public/window.svg"
+2026-01-12T09:56:18.430959Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public/next.svg"
+2026-01-12T09:56:18.430996Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/orval.config.ts"
+2026-01-12T09:56:18.431026Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/tsconfig.json"
+2026-01-12T09:56:18.431058Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/eslint.config.mjs"
+2026-01-12T09:56:18.431100Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/postcss.config.mjs"
+2026-01-12T09:56:18.431192Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src"
+2026-01-12T09:56:18.431269Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app"
+2026-01-12T09:56:18.431342Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-in"
+2026-01-12T09:56:18.431408Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-in/page.tsx"
+2026-01-12T09:56:18.431444Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/globals.css"
+2026-01-12T09:56:18.431491Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api"
+2026-01-12T09:56:18.431562Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth"
+2026-01-12T09:56:18.431639Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth/[...all]"
+2026-01-12T09:56:18.431721Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth/[...all]/route.ts"
+2026-01-12T09:56:18.431782Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/properties"
+2026-01-12T09:56:18.431841Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/properties/page.tsx"
+2026-01-12T09:56:18.431890Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/page.tsx"
+2026-01-12T09:56:18.431946Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-up"
+2026-01-12T09:56:18.432003Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-up/page.tsx"
+2026-01-12T09:56:18.432052Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/layout.tsx"
+2026-01-12T09:56:18.432082Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/providers.tsx"
+2026-01-12T09:56:18.432126Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components"
+2026-01-12T09:56:18.432181Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/auth-demo.tsx"
+2026-01-12T09:56:18.432223Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui"
+2026-01-12T09:56:18.432281Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui/input.tsx"
+2026-01-12T09:56:18.432320Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui/card.tsx"
+2026-01-12T09:56:18.432355Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui/label.tsx"
+2026-01-12T09:56:18.432388Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui/button.tsx"
+2026-01-12T09:56:18.432433Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib"
+2026-01-12T09:56:18.432489Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api"
+2026-01-12T09:56:18.432552Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/app"
+2026-01-12T09:56:18.432608Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/app/app.ts"
+2026-01-12T09:56:18.432668Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model"
+2026-01-12T09:56:18.432725Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/createPropertyDto.ts"
+2026-01-12T09:56:18.432758Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/createUserDto.ts"
+2026-01-12T09:56:18.432794Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/index.ts"
+2026-01-12T09:56:18.432834Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/properties"
+2026-01-12T09:56:18.432885Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/properties/properties.ts"
+2026-01-12T09:56:18.432939Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/auth.ts"
+2026-01-12T09:56:18.432976Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/utils.ts"
+2026-01-12T09:56:18.433003Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/auth-client.ts"
+2026-01-12T09:56:18.433079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/components.json"
+2026-01-12T09:56:18.433200Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.433220Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.433235Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.433245Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 33 file(s)
+2026-01-12T09:56:18.433617Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/package.json"
+2026-01-12T09:56:18.433652Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/sign-up/page.tsx"
+2026-01-12T09:56:18.433664Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/README.md"
+2026-01-12T09:56:18.433681Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/layout.tsx"
+2026-01-12T09:56:18.433697Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/next.config.ts"
+2026-01-12T09:56:18.433731Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/public/file.svg"
+2026-01-12T09:56:18.433756Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/public/globe.svg"
+2026-01-12T09:56:18.433777Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/public/vercel.svg"
+2026-01-12T09:56:18.433798Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/public/window.svg"
+2026-01-12T09:56:18.433705Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/providers.tsx"
+2026-01-12T09:56:18.433844Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/components/ui/input.tsx"
+2026-01-12T09:56:18.433856Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/components/auth-demo.tsx"
+2026-01-12T09:56:18.433868Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/components/ui/card.tsx"
+2026-01-12T09:56:18.433664Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/api/app/app.ts"
+2026-01-12T09:56:18.433889Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/api/properties/properties.ts"
+2026-01-12T09:56:18.433824Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/public/next.svg"
+2026-01-12T09:56:18.433913Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/auth.ts"
+2026-01-12T09:56:18.433886Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/components/ui/label.tsx"
+2026-01-12T09:56:18.433956Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/utils.ts"
+2026-01-12T09:56:18.433969Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/components/ui/button.tsx"
+2026-01-12T09:56:18.433977Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/auth-client.ts"
+2026-01-12T09:56:18.433990Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/orval.config.ts"
+2026-01-12T09:56:18.433996Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/components.json"
+2026-01-12T09:56:18.434009Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/tsconfig.json"
+2026-01-12T09:56:18.434019Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/createUserDto.ts"
+2026-01-12T09:56:18.434034Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/eslint.config.mjs"
+2026-01-12T09:56:18.434038Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/index.ts"
+2026-01-12T09:56:18.434066Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/postcss.config.mjs"
+2026-01-12T09:56:18.434108Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model/createPropertyDto.ts"
+2026-01-12T09:56:18.434131Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/sign-in/page.tsx"
+2026-01-12T09:56:18.434146Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/page.tsx"
+2026-01-12T09:56:18.434119Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth/[...all]/route.ts"
+2026-01-12T09:56:18.434137Z  INFO tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/properties/page.tsx"
+2026-01-12T09:56:18.434292Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.434311Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.434318Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.434900Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.434945Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.434962Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.434973Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2026-01-12T09:56:18.434997Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "/home/azureuser/projects/goject/apps/frontend/src/app/globals.css"
+2026-01-12T09:56:18.435018Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.435028Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.435036Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.435113Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.435137Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.435475Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.435768Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.435794Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.436403Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public"
+2026-01-12T09:56:18.436598Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src"
+2026-01-12T09:56:18.436668Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app"
+2026-01-12T09:56:18.436735Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-in"
+2026-01-12T09:56:18.436821Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api"
+2026-01-12T09:56:18.436889Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth"
+2026-01-12T09:56:18.436986Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth/[...all]"
+2026-01-12T09:56:18.437089Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/properties"
+2026-01-12T09:56:18.437179Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-up"
+2026-01-12T09:56:18.437301Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components"
+2026-01-12T09:56:18.437375Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui"
+2026-01-12T09:56:18.437493Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib"
+2026-01-12T09:56:18.437559Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api"
+2026-01-12T09:56:18.437616Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/app"
+2026-01-12T09:56:18.437693Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model"
+2026-01-12T09:56:18.437797Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/properties"
+2026-01-12T09:56:18.438042Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.438135Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.438341Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.438365Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2026-01-12T09:56:18.438903Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/public"
+2026-01-12T09:56:18.439113Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src"
+2026-01-12T09:56:18.439179Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app"
+2026-01-12T09:56:18.439235Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-in"
+2026-01-12T09:56:18.439317Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api"
+2026-01-12T09:56:18.439380Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth"
+2026-01-12T09:56:18.439453Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/api/auth/[...all]"
+2026-01-12T09:56:18.439544Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/properties"
+2026-01-12T09:56:18.439626Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/app/sign-up"
+2026-01-12T09:56:18.439740Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components"
+2026-01-12T09:56:18.439813Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/components/ui"
+2026-01-12T09:56:18.439916Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib"
+2026-01-12T09:56:18.439996Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api"
+2026-01-12T09:56:18.440052Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/app"
+2026-01-12T09:56:18.440129Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/model"
+2026-01-12T09:56:18.440227Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/azureuser/projects/goject/apps/frontend/src/lib/api/properties"
+2026-01-12T09:56:18.440432Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2026-01-12T09:56:18.441079Z  INFO get_globs: tailwindcss_oxide::scanner: exit

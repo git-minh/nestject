@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/unbound-method */
 import { Test, TestingModule } from '@nestjs/testing';
 import { PropertiesService } from './properties.service';
 import { DATABASE_CONNECTION } from '../../db/database.module';
